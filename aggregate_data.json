@@ -1,0 +1,2073 @@
+{
+  "status" : {
+    "code" : 0,
+    "message" : "200 OK"
+  },
+  "responseCreated" : "2025-02-13T16:05:19.306986826Z",
+  "response" : {
+    "data" : [ {
+      "id" : "0030ed75-587a-402b-95ee-1f9c2a1d7f57",
+      "name" : "DARC_WI Client",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+      "project_caption" : "Assets and Flows - Monthly - DARC",
+      "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+      "cube_name" : "Assets and Flows - Monthly - DARC",
+      "cube_caption" : "Assets and Flows - Monthly - DARC",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ {
+        "column_type" : "IntType",
+        "attribute" : "Period"
+      } ],
+      "attributes" : [ {
+        "name" : "AUA/AUM BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Client - Plan Sponsor BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK-Registration Type",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Data Source",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Plan BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Primary Line of Business BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "WI IND",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "WI Transactions",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "AUA/AUM BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Client - Plan Sponsor BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK-Registration Type Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Data Source Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : true
+      }, {
+        "name" : "Plan BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Primary Line of Business BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "WI IND Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "WI Transactions Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2025-02-06T23:58:34.545941Z",
+        "average_build_duration" : 6077,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "01f81f92-a4aa-4e8c-b977-021f186c54bb",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_01f81f92_darc_wi_client",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:09.994893Z",
+          "materialization_end_time" : "2025-02-07T00:26:16.072146Z",
+          "build_duration" : 6077,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "84c21834-a1b8-49bd-8558-be15f0d6b5ea",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "0030ed75-587a-402b-95ee-1f9c2a1d7f57",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "01f81f92-a4aa-4e8c-b977-021f186c54bb",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_01f81f92_darc_wi_client",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:09.994893Z",
+          "materialization_end_time" : "2025-02-07T00:26:16.072146Z",
+          "build_duration" : 6077,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "84c21834-a1b8-49bd-8558-be15f0d6b5ea",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "0030ed75-587a-402b-95ee-1f9c2a1d7f57",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "9ef1d819-86aa-48a0-bdf0-3b86da167a5f",
+      "name" : "FactReporting",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "63c41f40-f2cb-4fac-7f66-37463c0d0308",
+      "project_caption" : "MMH Finance Model",
+      "cube_id" : "889188384",
+      "cube_name" : "Finance Model",
+      "cube_caption" : "Finance Model",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ ],
+      "attributes" : [ {
+        "name" : "Company",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Currency",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Date",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Month",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L1",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L4",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L5",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L6",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L7",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L8",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Type",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Scenario",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Year",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Company Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Currency Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Date Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Month Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L1 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L4 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L5 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L6 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L7 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Group Reporting L8 Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Object Account Type Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Scenario Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Year Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Base Amount",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Base Amount",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Base Amount",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Opening Balance",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Opening Balance",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Opening Balance",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Amount",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Amount",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Amount",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2024-10-09T18:18:31.331377Z",
+        "average_build_duration" : 2806,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "40896843-6a00-48fd-9d3d-eb54f5ced840",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_40896843_factreporting",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2024-11-21T04:00:30.731784Z",
+          "materialization_end_time" : "2024-11-21T04:00:34.408402Z",
+          "build_duration" : 3676,
+          "number_of_rows" : 200
+        },
+        "build_query_id" : "e69c0083-a895-42d7-aff7-fa77f3fdc7fd",
+        "project_id" : "63c41f40-f2cb-4fac-7f66-37463c0d0308",
+        "cube_id" : "889188384",
+        "definition_id" : "9ef1d819-86aa-48a0-bdf0-3b86da167a5f",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "40896843-6a00-48fd-9d3d-eb54f5ced840",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_40896843_factreporting",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2024-11-21T04:00:30.731784Z",
+          "materialization_end_time" : "2024-11-21T04:00:34.408402Z",
+          "build_duration" : 3676,
+          "number_of_rows" : 200
+        },
+        "build_query_id" : "e69c0083-a895-42d7-aff7-fa77f3fdc7fd",
+        "project_id" : "63c41f40-f2cb-4fac-7f66-37463c0d0308",
+        "cube_id" : "889188384",
+        "definition_id" : "9ef1d819-86aa-48a0-bdf0-3b86da167a5f",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "59fb0810-626a-40ac-a46f-908d29616136",
+      "name" : "DARC_CPV/IPV/BPV",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+      "project_caption" : "Assets and Flows - Monthly - DARC",
+      "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+      "cube_name" : "Assets and Flows - Monthly - DARC",
+      "cube_caption" : "Assets and Flows - Monthly - DARC",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ {
+        "column_type" : "IntType",
+        "attribute" : "Period"
+      } ],
+      "attributes" : [ {
+        "name" : "AUA/AUM BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - BPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - IPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK-Registration Type",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Primary Line of Business BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Detail Description",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "AUA/AUM BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - BPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - IPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK-Registration Type Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : true
+      }, {
+        "name" : "Primary Line of Business BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Detail Description Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Cash and Memo Transactions",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2025-02-06T23:58:34.556229Z",
+        "average_build_duration" : 6593,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "196034db-ee8f-4698-8bd4-ae421856a5fe",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_196034db_darc_cpvipvbpv",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:10.441775Z",
+          "materialization_end_time" : "2025-02-07T00:26:17.035199Z",
+          "build_duration" : 6593,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "db39f7bd-b854-4899-94df-7f454980183f",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "59fb0810-626a-40ac-a46f-908d29616136",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "196034db-ee8f-4698-8bd4-ae421856a5fe",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_196034db_darc_cpvipvbpv",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:10.441775Z",
+          "materialization_end_time" : "2025-02-07T00:26:17.035199Z",
+          "build_duration" : 6593,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "db39f7bd-b854-4899-94df-7f454980183f",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "59fb0810-626a-40ac-a46f-908d29616136",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "cd25648e-8016-4550-946b-d82804dd9d11",
+      "name" : "DARC_CPV AUA",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+      "project_caption" : "Assets and Flows - Monthly - DARC",
+      "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+      "cube_name" : "Assets and Flows - Monthly - DARC",
+      "cube_caption" : "Assets and Flows - Monthly - DARC",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ {
+        "column_type" : "IntType",
+        "attribute" : "Period"
+      } ],
+      "attributes" : [ {
+        "name" : "AUA/AUM BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Primary Line of Business BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Detail Description",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "AUA/AUM BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Org Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Attributes Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : true
+      }, {
+        "name" : "Primary Line of Business BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Offering BK Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Detail Description Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Commissions",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Counts",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Dividends Interests",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Market Action",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Measure Value",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Non Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Other Non Customer Changes in Asset",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Source Of Money Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Billable Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Position Unit",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Traded Shares Quantity",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Trades",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Transaction Count",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2025-02-06T23:58:34.540335Z",
+        "average_build_duration" : 4865,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "99c1a3c7-7d61-4cef-8f7e-b616c0ee5db6",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_99c1a3c7_darc_cpv_aua",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:10.935179Z",
+          "materialization_end_time" : "2025-02-07T00:26:15.800979Z",
+          "build_duration" : 4865,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "dc4d95dd-84ff-47f3-91fe-97f2c6c15de6",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "cd25648e-8016-4550-946b-d82804dd9d11",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "99c1a3c7-7d61-4cef-8f7e-b616c0ee5db6",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_99c1a3c7_darc_cpv_aua",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:10.935179Z",
+          "materialization_end_time" : "2025-02-07T00:26:15.800979Z",
+          "build_duration" : 4865,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "dc4d95dd-84ff-47f3-91fe-97f2c6c15de6",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "cd25648e-8016-4550-946b-d82804dd9d11",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "eba99599-6eb3-41fe-81ec-6b5fd5c157ab",
+      "name" : "DARC AGG1",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+      "project_caption" : "Assets and Flows - Monthly - DARC",
+      "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+      "cube_name" : "Assets and Flows - Monthly - DARC",
+      "cube_caption" : "Assets and Flows - Monthly - DARC",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ {
+        "column_type" : "IntType",
+        "attribute" : "Period"
+      } ],
+      "attributes" : [ {
+        "name" : "DimBK - AUA/AUM",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Managed Account",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Organization Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - AUA/AUM Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Managed Account Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Organization Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : true
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Period DC",
+        "type" : "measure",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2025-02-06T23:58:34.551388Z",
+        "average_build_duration" : 2786,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "c336315c-1641-4496-9be9-a695b3864391",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_c336315c_darc_agg1",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T01:30:00.999467Z",
+          "materialization_end_time" : "2025-02-07T01:30:03.786359Z",
+          "build_duration" : 2786,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "7094bb9c-8418-4f27-9064-ca7fb9adc63a",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "eba99599-6eb3-41fe-81ec-6b5fd5c157ab",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "c336315c-1641-4496-9be9-a695b3864391",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_c336315c_darc_agg1",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T01:30:00.999467Z",
+          "materialization_end_time" : "2025-02-07T01:30:03.786359Z",
+          "build_duration" : 2786,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "7094bb9c-8418-4f27-9064-ca7fb9adc63a",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "eba99599-6eb3-41fe-81ec-6b5fd5c157ab",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "0dcf668f-95ce-4b3d-8234-972d9fffcebc",
+      "name" : "Revenue",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "497aed87-e507-4b3a-71eb-9c86708f83a8",
+      "project_caption" : "Profitability",
+      "cube_id" : "5f6af9f7-8735-41fa-4494-0ba6a0b28453",
+      "cube_name" : "Profitability",
+      "cube_caption" : "Profitability",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ ],
+      "attributes" : [ {
+        "name" : "Dim_Bk-SBIP -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Internally Managed Description",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Internally Managed Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Investment Vehicle -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account Group",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account Type",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Group -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Line -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Segment Code",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Product Type -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Security Class -  CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Dim_Bk-SBIP -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Internally Managed Description Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Internally Managed Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Investment Vehicle -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account Group Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Managed Account Type Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Group -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Line -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Segment Code Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Product Type -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Security Class -  CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Op Exp",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Op Exp",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Op Exp",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Revenue",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Revenue",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Revenue",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2024-07-18T17:02:38.663880Z",
+        "average_build_duration" : 2414,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "c1461443-c8b0-4d91-b59f-6903a610427e",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_c1461443_revenue",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2024-11-21T04:00:30.809104Z",
+          "materialization_end_time" : "2024-11-21T04:00:33.309121Z",
+          "build_duration" : 2500,
+          "number_of_rows" : 2595
+        },
+        "build_query_id" : "1d49e582-bd0a-47b9-be4d-ab84b3b97ebb",
+        "project_id" : "497aed87-e507-4b3a-71eb-9c86708f83a8",
+        "cube_id" : "5f6af9f7-8735-41fa-4494-0ba6a0b28453",
+        "definition_id" : "0dcf668f-95ce-4b3d-8234-972d9fffcebc",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "c1461443-c8b0-4d91-b59f-6903a610427e",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_c1461443_revenue",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2024-11-21T04:00:30.809104Z",
+          "materialization_end_time" : "2024-11-21T04:00:33.309121Z",
+          "build_duration" : 2500,
+          "number_of_rows" : 2595
+        },
+        "build_query_id" : "1d49e582-bd0a-47b9-be4d-ab84b3b97ebb",
+        "project_id" : "497aed87-e507-4b3a-71eb-9c86708f83a8",
+        "cube_id" : "5f6af9f7-8735-41fa-4494-0ba6a0b28453",
+        "definition_id" : "0dcf668f-95ce-4b3d-8234-972d9fffcebc",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "bd62ec01-c3ed-4332-b385-f1fe3e214e2a",
+      "name" : "DARC AGG6",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+      "project_caption" : "Assets and Flows - Monthly - DARC",
+      "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+      "cube_name" : "Assets and Flows - Monthly - DARC",
+      "cube_caption" : "Assets and Flows - Monthly - DARC",
+      "connection_id" : "AtscaleSnowflake",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ {
+        "column_type" : "IntType",
+        "attribute" : "Period"
+      } ],
+      "attributes" : [ {
+        "name" : "Aggregated SBIP Level - CPV",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK_Product_Offering",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - AUA/AUM",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Managed Account ",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Plan",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Organization Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Institutional Account Level",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Period",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Aggregated SBIP Level - CPV Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DIM_BK_Product_Offering Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - AUA/AUM Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Managed Account  Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "DimBK - Plan Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Discretionary Indicator Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Distribution Organization Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Institutional Account Level Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Period Key",
+        "type" : "key",
+        "partitioned" : true
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Average Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Customer Net Flows",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Ending Assets",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      }, {
+        "name" : "Period DC",
+        "type" : "measure",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2025-02-06T23:58:34.560560Z",
+        "average_build_duration" : 3360,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "cb7a0765-45ea-4bc5-b3d6-355ac2fd6094",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_cb7a0765_darc_agg6",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:17.722256Z",
+          "materialization_end_time" : "2025-02-07T00:26:21.082874Z",
+          "build_duration" : 3360,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "562077e3-4031-44c6-a4c1-3494fb086cac",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "bd62ec01-c3ed-4332-b385-f1fe3e214e2a",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "active_instance" : {
+        "id" : "cb7a0765-45ea-4bc5-b3d6-355ac2fd6094",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_cb7a0765_darc_agg6",
+        "table_schema" : "ATSCALE",
+        "stats" : {
+          "materialization_start_time" : "2025-02-07T00:26:17.722256Z",
+          "materialization_end_time" : "2025-02-07T00:26:21.082874Z",
+          "build_duration" : 3360,
+          "number_of_rows" : 100
+        },
+        "build_query_id" : "562077e3-4031-44c6-a4c1-3494fb086cac",
+        "project_id" : "229471aa-ff5c-4d76-7eea-2ced1bcc9396",
+        "cube_id" : "447e296a-de41-4f6d-78dd-143dc0b52edd",
+        "definition_id" : "bd62ec01-c3ed-4332-b385-f1fe3e214e2a",
+        "connection_id" : "AtscaleSnowflake"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    }, {
+      "id" : "08e77083-bc6e-40be-a83d-739448289839",
+      "name" : "SemiAdditiveUDA",
+      "type" : "user_defined",
+      "subtype" : "manual",
+      "incremental" : false,
+      "organization_id" : "default",
+      "project_id" : "f2f95cde-8529-4f79-7339-38adaef4cd30",
+      "project_caption" : "SemiAdditive",
+      "cube_id" : "1fabb921-d610-4a1e-64cf-6b9a8d171616",
+      "cube_name" : "SemiAdditive",
+      "cube_caption" : "SemiAdditive",
+      "connection_id" : "Postgres14",
+      "system_defined_with_distinct_count" : false,
+      "promoted" : false,
+      "distribution" : {
+        "distribution_keys" : [ ],
+        "bucket_count" : null
+      },
+      "partitions" : [ ],
+      "attributes" : [ {
+        "name" : "Year",
+        "type" : "dimension",
+        "partitioned" : false
+      }, {
+        "name" : "Year Key",
+        "type" : "key",
+        "partitioned" : false
+      }, {
+        "name" : "Sales Amount Semi Additive",
+        "type" : "measure",
+        "aggregation_type" : "SUM",
+        "partitioned" : false
+      }, {
+        "name" : "Sales Amount Semi Additive",
+        "type" : "measure",
+        "aggregation_type" : "MIN",
+        "partitioned" : false
+      }, {
+        "name" : "Sales Amount Semi Additive",
+        "type" : "measure",
+        "aggregation_type" : "MAX",
+        "partitioned" : false
+      } ],
+      "stats" : {
+        "created_at" : "2024-10-16T16:47:41.537482Z",
+        "average_build_duration" : 753,
+        "query_utilization" : 0
+      },
+      "latest_instance" : {
+        "id" : "de93f1ed-641b-4e6e-8c5f-5cd1edb8d8ca",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_de93f1ed_semiadditiveud",
+        "table_schema" : "atscale_aggr",
+        "stats" : {
+          "materialization_start_time" : "2024-11-19T04:00:01.486642Z",
+          "materialization_end_time" : "2024-11-19T04:00:01.976618Z",
+          "build_duration" : 489,
+          "number_of_rows" : 4
+        },
+        "build_query_id" : "c3d5a3b4-c935-4a46-a3fc-9b0ab623325a",
+        "project_id" : "f2f95cde-8529-4f79-7339-38adaef4cd30",
+        "cube_id" : "1fabb921-d610-4a1e-64cf-6b9a8d171616",
+        "definition_id" : "08e77083-bc6e-40be-a83d-739448289839",
+        "connection_id" : "Postgres14"
+      },
+      "active_instance" : {
+        "id" : "de93f1ed-641b-4e6e-8c5f-5cd1edb8d8ca",
+        "status" : "active",
+        "message" : "Normal aggregate activated",
+        "table_name" : "as_agg_de93f1ed_semiadditiveud",
+        "table_schema" : "atscale_aggr",
+        "stats" : {
+          "materialization_start_time" : "2024-11-19T04:00:01.486642Z",
+          "materialization_end_time" : "2024-11-19T04:00:01.976618Z",
+          "build_duration" : 489,
+          "number_of_rows" : 4
+        },
+        "build_query_id" : "c3d5a3b4-c935-4a46-a3fc-9b0ab623325a",
+        "project_id" : "f2f95cde-8529-4f79-7339-38adaef4cd30",
+        "cube_id" : "1fabb921-d610-4a1e-64cf-6b9a8d171616",
+        "definition_id" : "08e77083-bc6e-40be-a83d-739448289839",
+        "connection_id" : "Postgres14"
+      },
+      "most_recent_status" : "active",
+      "blocked" : false
+    } ],
+    "total" : 8,
+    "limit" : 101,
+    "offset" : 0,
+    "force_pull" : false
+  }
+}
